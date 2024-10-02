@@ -69,9 +69,9 @@ class Mandala extends JFrame {
     }
 
     private Color colorRandom() {
-        int r = (int) (Math.random() * 128) + 128;
-        int g = (int) (Math.random() * 128) + 128;
-        int b = (int) (Math.random() * 128) + 128;
+        int r = (int) (Math.random() * 64) + 128;
+        int g = (int) (Math.random() * 64) + 128;
+        int b = (int) (Math.random() * 64) + 128;
         return new Color(r, g, b);
     }
 
